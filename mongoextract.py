@@ -30,7 +30,7 @@ if r.status_code != 302:
 
 print('Extracting password for user:%s'%(username))
 
-while loop<2:
+while loop<1:
   loop += 1
   for c in string.printable:
     if c not in ['*','+','.','?','|', '#', '&', '$']:
